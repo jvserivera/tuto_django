@@ -30,6 +30,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# Aqui le digo a Django que usare esos modelos, basicamente los activo para que estos puedan ser utilizados, luego de
+# anadir los apps tengo que correr makemigrations y luego migrate
+
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     'django.contrib.admin',
